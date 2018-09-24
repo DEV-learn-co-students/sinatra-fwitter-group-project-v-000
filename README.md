@@ -118,7 +118,9 @@ You'll need to create a controller action that displays the information for a si
 
 ### Edit Tweet
 
-You'll need to create two controller actions to edit a tweet: one to load the form to edit, and one to actually update the tweet entry in the database. The form to edit a tweet should be loaded via a GET request to `/tweets/:id/edit`. The form should be submitted via a POST request to `/tweets/:id`.
+You'll need to create two controller actions to edit a tweet: one to load the form to edit, and one to actually update the tweet entry in the database. 
+
+The form to edit a tweet should be loaded via a GET request to `/tweets/:id/edit`. The form should be submitted via a POST request to `/tweets/:id`.
 
 You'll want to create an edit link on the tweet show page.
 
